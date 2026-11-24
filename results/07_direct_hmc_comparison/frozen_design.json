@@ -1,0 +1,44 @@
+{
+  "mode": "full",
+  "seeds": [
+    27002,
+    27003,
+    27008,
+    27011,
+    27015,
+    27018,
+    27020,
+    27022
+  ],
+  "image_ids": [
+    2,
+    19,
+    26,
+    34,
+    40,
+    44,
+    48,
+    65,
+    66,
+    71,
+    88,
+    90
+  ],
+  "excluded_previously_inspected_image_ids": [
+    3,
+    5,
+    6
+  ],
+  "image_selection_seed": 20261124,
+  "chains": 4,
+  "warmup": 1000,
+  "samples_per_chain": 2000,
+  "leapfrog_steps": 12,
+  "online_repeats": 12,
+  "online_average_budget": 48,
+  "original_group_size": 52,
+  "max_draws_per_image_in_online_bank": 120,
+  "pass_fraction_required": 0.8,
+  "min_pass_per_seed": 6,
+  "interpretation": "exploratory subset chosen after inspecting earlier follow-up results"
+}
