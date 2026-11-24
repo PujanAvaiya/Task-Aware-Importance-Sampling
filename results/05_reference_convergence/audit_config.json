@@ -1,0 +1,57 @@
+{
+  "audit_mode": "pilot",
+  "N_each": [
+    32768,
+    65536,
+    131072
+  ],
+  "seeds": 5,
+  "image_ids_within_x_follow": [
+    3,
+    5,
+    6,
+    8,
+    21,
+    41,
+    49,
+    51,
+    54,
+    69,
+    71,
+    81,
+    82,
+    92,
+    99,
+    102
+  ],
+  "online_repeats": 12,
+  "online_average": 48,
+  "reference_chunk": 1024,
+  "orig_fuout": "/content/drive/MyDrive/TaskAware_VAE_Confirmation/followup_full_3dde513c60c2",
+  "followup_config": {
+    "dims": [
+      4,
+      8
+    ],
+    "n_seeds": 25,
+    "epochs": 65,
+    "n_dev": 800,
+    "n_val": 128,
+    "n_val_proposal": 64,
+    "group_size": 52,
+    "online_average": 48,
+    "online_repeats": 12,
+    "teacher_budget": 512,
+    "repeat_teacher": 4,
+    "validation_proxy_budget": 4096,
+    "proposal_pilot_draws": 2048,
+    "ref_each": 32768,
+    "ref_early": 8192,
+    "reference_chunk": 1024,
+    "ref_image_batch": 8,
+    "encoder_ref_subset": 32,
+    "seed_start": 27000,
+    "bootstrap_repeats": 6000,
+    "signflip_repeats": 30000
+  }
+}
