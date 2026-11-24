@@ -1,0 +1,2 @@
+dim,seed,proposal,rank_rho_Task512,rank_rho_Task4x512,rank_rho_ESS512,validation_proxy_budget,teacher_budget,teacher_repeat_count,offline_teacher_draws_Task512,offline_teacher_draws_Task4x512
+4,27007,t1.50_prior0.00,0.5415216993224683,0.6185851950192273,0.3821644387474822,4096,512,4,409600,1638400

@@ -1,0 +1,2 @@
+dim,seed,selected_proposal,selected_temperature,selected_prior_mixture_weight,seconds,teacher512_density_evaluations,teacher4x512_density_evaluations,proposal_tuning_density_evaluations,selected_reference_density_evaluations,online_bank_density_evaluations
+8,27019,t2.00_prior0.20,2.0,0.2,6.4478302001953125,409600,1638400,2097152,6815744,299520
