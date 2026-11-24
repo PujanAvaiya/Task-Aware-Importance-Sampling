@@ -1,0 +1,13 @@
+{
+    "experiment": "Amortized Task-Aware Importance Sampling",
+    "dev_K": 512,
+    "dev_n": 800,
+    "dimensions": [
+        4,
+        8
+    ],
+    "replicates_per_dataset": 16,
+    "online_samples_per_observation": 48,
+    "run_id": "20261119_033837_355985",
+    "output_directory": "/content/drive/MyDrive/Adaptive_VI_Research/dev_K_512/20261119_033837_355985"
+}
