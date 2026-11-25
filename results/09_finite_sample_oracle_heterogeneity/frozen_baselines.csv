@@ -1,0 +1,13 @@
+dimension,regime,selected_baseline
+4,original,context_noise
+4,fixed_scale,uniform
+4,noise_only,context_noise
+4,separation_only,separation
+4,mismatch_only,mismatch
+4,combined_fixed_scale,separation
+8,original,context_noise
+8,fixed_scale,uniform
+8,noise_only,context_noise
+8,separation_only,separation
+8,mismatch_only,mismatch
+8,combined_fixed_scale,separation
