@@ -14,7 +14,6 @@ This study investigates how to distribute a fixed importance-sampling budget acr
 | 6. Independent posterior checks | [Notebook](notebooks/06_independent_reference_checks.ipynb) | [Weight outlier and HMC diagnostics](results/06_independent_reference_checks/) |
 | 7. Direct HMC comparison | [Notebook](notebooks/07_direct_hmc_comparison.ipynb) | [Coverage and paired comparisons](results/07_direct_hmc_comparison/) |
 | 8. Oracle headroom and finite-sample risk | [Notebook](notebooks/08_synthetic_oracle_finite_sample_risk.ipynb) | [Baselines, oracle headroom, risk calibration and figures](results/08_synthetic_oracle_risk/) |
-
 | 9. Finite-sample oracle and controlled heterogeneity | [Notebook](notebooks/09_finite_sample_oracle_and_controlled_heterogeneity.ipynb) | [Results](results/09_finite_sample_oracle_heterogeneity/) |
 | 10. Real-data Bayesian localization | [Notebook](notebooks/10_ujiindoorloc_finite_sample_risk.ipynb) | [Results](results/10_ujiindoorloc/) |
 | 11. Posterior coverage-aware risk | [Notebook](notebooks/11_coverage_aware_snis.ipynb) | [Results](results/11_coverage_aware/) |
