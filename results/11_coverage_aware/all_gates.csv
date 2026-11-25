@@ -1,0 +1,8 @@
+case,cheap,generic,gamma,alpha,gain_cheap_pct,ci_low_cheap,gain_generic_pct,ci_low_generic,headroom_captured,exploratory_gate,capture25
+wifi,floor_uncertainty,inverse_K,coverage_0.25,0.0,-29.658578404919677,-32.62912946740359,-26.42714973026379,-29.236069153276752,-1.0326035119308996,False,False
+gaussian_4D_mismatch_only,combined_context,power_law,coverage_0.25,0.75,0.2040426685085195,0.10970805557479452,-0.013418131131848199,-0.04533177224664755,,False,False
+gaussian_4D_original,proposal_width,direct_risk,coverage_2,1.0,0.6469869455760557,0.5301140647408487,-0.0693529053316988,-0.1897983483210394,2.213144020539001,False,True
+gaussian_4D_separation_only,combined_context,inverse_K,coverage_0.1,1.0,-0.01309538282587841,-0.09090654072679838,0.0001235213867967211,-0.017096224309710497,,False,False
+gaussian_8D_mismatch_only,combined_context,power_law,coverage_1,0.75,0.17036442159229503,0.13003008447226316,0.004754690718189458,-0.023764594438650085,,False,False
+gaussian_8D_original,proposal_width,power_law,coverage_2,1.0,0.2509538358872465,0.16169770098200398,-0.22161178076325339,-0.2682592611340603,2.1925791749360397,False,True
+gaussian_8D_separation_only,combined_context,inverse_K,coverage_0.05,1.0,0.08837884144895503,0.046382915031062635,-0.006834311818382233,-0.019240935064238993,,False,False

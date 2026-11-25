@@ -1,0 +1,13 @@
+{
+  "primary_baseline": "floor_uncertainty",
+  "oracle_gain_pct": 30.5437096855936,
+  "oracle_ci_low_pct": 29.40859617516257,
+  "oracle_ci_high_pct": 31.67882319602463,
+  "oracle_gate_pass": true,
+  "oracle_A_B_mean_abs_allocation_diff": 7.744374437443744,
+  "learned_gain_pct": -19.55148924641483,
+  "learned_ci_low_pct": -21.200534141303084,
+  "shrink_alpha": 0,
+  "captured_oracle_gain_fraction": -0.6401150825381432,
+  "interpretation": "Conditional Monte Carlo uncertainty only; approximate estimated oracle, not guaranteed upper bound."
+}
