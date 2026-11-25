@@ -1,0 +1,72 @@
+{
+  "full": true,
+  "real_data": true,
+  "dataset": "UJIIndoorLoc",
+  "sha256": "893512b82dfd7a7c345d84195b1c8019fbca0fa0d7820ce491ce5aa45ec3782f",
+  "train_rows": 19937,
+  "test_rows": 1111,
+  "regions": 32,
+  "states": 779,
+  "split": "user-disjoint development",
+  "fit_rows": 11803,
+  "teacher_rows": 1000,
+  "val_rows": 512,
+  "seed": 20261123,
+  "new_seed": 932011,
+  "synthetic_cases": [
+    [
+      4,
+      "original"
+    ],
+    [
+      4,
+      "separation_only"
+    ],
+    [
+      4,
+      "mismatch_only"
+    ],
+    [
+      4,
+      "combined_fixed_scale"
+    ],
+    [
+      8,
+      "original"
+    ],
+    [
+      8,
+      "combined_fixed_scale"
+    ]
+  ],
+  "synthetic_test_batches": 25,
+  "device": "cpu",
+  "torch_version": "2.14.1+cpu",
+  "nopt": 512,
+  "neval": 1024,
+  "nteach": 512,
+  "nval": 512,
+  "epochs": 30,
+  "budget_avg": 48,
+  "kmin": 4,
+  "kmax": 120,
+  "real_test_reused": true,
+  "real_ci": "conditional Monte Carlo on fixed records",
+  "synthetic_ci": "paired independent batch-level",
+  "elapsed_seconds": 2011.097091673,
+  "gate": "Holm primary synthetic contrasts; real exploratory",
+  "coverage_gamma": [
+    0.1,
+    0.25,
+    0.5,
+    1.0,
+    2.0
+  ],
+  "penalties": [
+    0.0,
+    0.25,
+    1.0,
+    4.0
+  ],
+  "student_temperature": 1.25
+}
