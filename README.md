@@ -51,8 +51,3 @@ On the previously examined 1,111 UJIIndoorLoc test observations, the structured 
 
 ![8D oracle headroom](results/09_finite_sample_oracle_heterogeneity/figures/headroom_8D.png)
 
-## Reproduction
-
-Open the relevant notebook in Google Colab, run the setup cells, and use smoke mode first where available. Synthetic runs can use a CPU; a GPU is useful for VAE experiments. Follow the saved configurations and notebook Drive/output path settings. Diagnostic add-ons in [scripts](scripts/) expect the corresponding setup and checkpoints. Some large per-seed model checkpoints and intermediate files are not committed here; those are retained in the separately prepared research archive. Use only trusted serialized models.
-
-The [updated research proposal (LaTeX)](docs/Learning_Finite_Sample_Risk_Coverage_Updated.tex) incorporates the coverage-aware studies and distinguishes completed experiments from proposed research. The [earlier report](docs/Task_Aware_Amortized_Importance_Sampling_Updated.tex) records the preceding studies. The experimental configuration metadata records the actual 2026 runs. The results include negative and inconclusive findings as well as favorable ones.
